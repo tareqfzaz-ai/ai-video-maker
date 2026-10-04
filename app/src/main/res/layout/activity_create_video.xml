@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎬 إنشاء فيديو بالذكاء الاصطناعي"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اكتب وصف الفيديو"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/prompt"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:gravity="top|start"
+            android:hint="مثال: إعلان سينمائي فاخر لمنتج جديد..."
+            android:textColor="#FFFFFF"
+            android:textColorHint="#888888"
+            android:background="#202020"
+            android:padding="14dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="المدة"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+        <Spinner
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="النمط"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"/>
+
+        <Spinner
+            android:id="@+id/style"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="24dp"/>
+
+        <Button
+            android:id="@+id/createNow"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:text="🚀 إنشاء الفيديو"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</ScrollView>
