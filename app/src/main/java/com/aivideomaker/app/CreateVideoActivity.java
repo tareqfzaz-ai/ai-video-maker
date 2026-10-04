@@ -9,6 +9,7 @@ import org.json.JSONObject;
 import java.io.*;
 import java.net.*;
 import java.nio.charset.StandardCharsets;
+import android.net.Uri;
 
 public class CreateVideoActivity extends Activity {
     private static final String SUPABASE_URL = "https://zwsmdwvyulwidbgluyae.supabase.co";
